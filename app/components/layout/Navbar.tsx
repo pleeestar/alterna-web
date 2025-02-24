@@ -8,7 +8,7 @@ import React, { JSX } from 'react'
 
 import { Kiwi_Maru } from "next/font/google"
 
-const maruFont =  Kiwi_Maru({
+const maruFont = Kiwi_Maru({
   weight: "400",
   subsets: ["latin"],
 })
@@ -27,8 +27,8 @@ const navItems: NavItem[] = [
   { label: "秋", href: "/autumn", en: false, md: false },
   { label: "冬", href: "/winter", en: false, md: false },
   { label: "Gallery", href: "/gallary", en: true, md: true },
-  { label: "バナー同盟", href: "/banner", en: false, md: true  },
-  { label: "参加する", href: "/discord-link", en: false, md: true  },
+  { label: "バナー同盟", href: "/banner", en: false, md: true },
+  { label: "参加する", href: "/discord-link", en: false, md: true },
 ]
 
 export default function Navbar() {
@@ -41,7 +41,7 @@ export default function Navbar() {
   // 再帰関数: メニューリンクを描画
   const renderNavItems = (items: NavItem[], isMobile: boolean = false): JSX.Element[] => {
     return items.map(({ label, href, /*isButton,*/ en, md }, index) => (
-      <Link key={index} href={href} className={`${isMobile ? 'block px-4 py-2 text-xl opacity-65' : 'px-4'} ${en ? '' : maruFont.className} ${md ? '': 'block md:hidden xl:block'}`}>
+      <Link key={index} href={href} className={`${isMobile ? 'block px-4 py-2 text-xl opacity-65' : 'px-4'} ${en ? '' : maruFont.className} ${md ? '' : 'block md:hidden xl:block'}`}>
         {label}
       </Link>
     ))
@@ -78,6 +78,10 @@ export default function Navbar() {
             {renderNavItems(navItems.filter(item => !item.isButton))}
           </div>
           */}
+
+          <div className={`hidden md:flex space-x-6 text-xl`}>
+            {renderNavItems(navItems.filter(item => item))}
+          </div>
 
           {/* アクションボタン */}
           {/*<div className="hidden md:flex space-x-4">
