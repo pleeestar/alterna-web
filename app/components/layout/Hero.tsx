@@ -39,13 +39,13 @@ export default function Hero() {
               height={350}
               width={350}
               alt="アトラス/Alterna.Inc"
-              className="block md:hidden px-7 mb-20 md:mb-0"
+              className="block md:hidden px-7 mb-15 md:mb-0"
             />
           </div>
           <div className="grid place-content-center place-item-center p-4 gap-4 lg:col-start-2 lg:col-end-5 lg:row-start-5 lg:row-end-6 lg:grid lg:p-4 lg:gap-4 z-20">
             <div className="flex gap-4">
               <Button variant="primary">Get Started</Button>
-              <Button variant="secondary">Discordに参加する</Button>
+              <Button variant="secondary">Discordに参加</Button>
             </div>
             <p className="text-center opacity-50 text-sm md:text-base">@_@ Alterna.Inc System9@友達Protocol</p>
           </div>
