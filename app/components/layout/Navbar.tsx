@@ -16,7 +16,7 @@ const maruFont =  Kiwi_Maru({
 type NavItem = {
   label: string
   href: string
-  isButton?: boolean
+  /*isButton?: boolean*/
   md?: boolean
   en: boolean
 }
@@ -40,7 +40,7 @@ export default function Navbar() {
 
   // 再帰関数: メニューリンクを描画
   const renderNavItems = (items: NavItem[], isMobile: boolean = false): JSX.Element[] => {
-    return items.map(({ label, href, isButton, en, md }, index) => (
+    return items.map(({ label, href, /*isButton,*/ en, md }, index) => (
       <Link key={index} href={href} className={`${isMobile ? 'block px-4 py-2 text-xl opacity-65' : 'px-4'} ${en ? '' : maruFont.className} ${md ? '': 'block md:hidden xl:block'}`}>
         {label}
       </Link>
@@ -74,14 +74,16 @@ export default function Navbar() {
           </div>
 
           {/* デスクトップ用ナビ */}
-          <div className={`hidden md:flex space-x-6 text-xl`}>
+          {/*<div className={`hidden md:flex space-x-6 text-xl`}>
             {renderNavItems(navItems.filter(item => !item.isButton))}
           </div>
+          */}
 
           {/* アクションボタン */}
-          <div className="hidden md:flex space-x-4">
+          {/*<div className="hidden md:flex space-x-4">
             {renderNavItems(navItems.filter(item => item.isButton))}
           </div>
+          */}
 
           {/* モバイル用ハンバーガー */}
           <div className="md:hidden flex items-center">
