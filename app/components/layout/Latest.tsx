@@ -1,8 +1,8 @@
 import Link from "next/link"
 import Button from "../elements/Button"
 //日本語のパス名の場合は拡張子を追加
-import 裏垢女子プロトコル from "../latest/裏垢女子プロトコル.tsx"
-import イマジナリーフレンド from "../latest/イマジナリーフレンド.tsx"
+import 裏垢女子プロトコル from "../latest/裏垢女子プロトコル"
+import イマジナリーフレンド from "../latest/イマジナリーフレンド"
 
 import { Kiwi_Maru } from "next/font/google"
 
