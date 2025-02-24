@@ -4,7 +4,7 @@ import Button from "../elements/Button"
 export default function Hero() {
   return (
     <div className="h-[90vh]">
-      <div className="relative w-full h-[90vh] md:h-[70vh]">
+      <div className="relative w-full h-[85vh] md:h-[70vh]">
         <Image
           src="/background.png"
           alt=""
