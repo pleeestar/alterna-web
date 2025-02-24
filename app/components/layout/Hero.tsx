@@ -39,7 +39,7 @@ export default function Hero() {
               height={350}
               width={350}
               alt="アトラス/Alterna.Inc"
-              className="block md:hidden"
+              className="block md:hidden px-7"
             />
           </div>
           <div className="grid place-content-center place-item-center p-4 gap-4 lg:col-start-2 lg:col-end-5 lg:row-start-5 lg:row-end-6 lg:grid lg:p-4 lg:gap-4 z-20">
