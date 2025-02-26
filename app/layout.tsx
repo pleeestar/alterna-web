@@ -1,6 +1,12 @@
 import type { Metadata } from "next"
-import { Geist, Geist_Mono, Inter, Noto_Sans_JP } from "next/font/google"
+import { Analytics } from '@vercel/analytics/next';
+import { Source_Code_Pro, Geist, Geist_Mono, Inter, Noto_Sans_JP } from "next/font/google"
 import "./globals.css"
+
+const code = Source_Code_Pro({
+  variable: "--font-source-code-pro",
+  subsets: ["latin"],
+})
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -23,7 +29,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "アトラス/Alterna.Inc",
+  title: "きのこたけのこノイズ研究所",
   description: "俺達は飯食ってうんこするために生きている。",
 }
 
@@ -35,9 +41,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} ${noto.variable} antialiased`}
+        className={`${code.variable} ${geistSans.variable} ${geistMono.variable} ${inter.variable} ${noto.variable} antialiased`}
       >
         {children}
+        <Analytics />
       </body>
     </html>
   )
