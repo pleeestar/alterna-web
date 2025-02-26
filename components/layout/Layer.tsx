@@ -8,7 +8,7 @@ const code = Source_Code_Pro({
 
 export default function Layer() {
   return (
-    <div className={`${code.className} p-8 opacity-60 hidden md:block`}>
+    <div className={`${code.className} p-8 opacity-60 hidden xl:block`}>
       <p>Layer: 8</p>
       <p>Protocol: 8.10 TNOK System</p>
       <p>KMR Control X module</p>
