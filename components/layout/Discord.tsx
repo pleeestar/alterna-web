@@ -7,7 +7,7 @@ const maruFont = Kiwi_Maru({
   subsets: ["latin"],
 });
 
-const DiscordFrame = () => {
+/*const DiscordFrame = () => {
   return (
     <iframe
       src="https://discord.com/widget?id=1344346212480061460&theme=dark"
@@ -17,7 +17,7 @@ const DiscordFrame = () => {
       sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
     ></iframe>
   );
-};
+};*/
 
 export default function Discord() {
   return (
