@@ -1,6 +1,8 @@
 import type { Metadata } from "next"
 import { Analytics } from '@vercel/analytics/next';
 import { Source_Code_Pro, Geist, Geist_Mono, Inter, Noto_Sans_JP } from "next/font/google"
+import Navbar from "../components/layout/Navbar"
+
 import "./globals.css"
 
 const code = Source_Code_Pro({
@@ -43,6 +45,7 @@ export default function RootLayout({
       <body
         className={`${code.variable} ${geistSans.variable} ${geistMono.variable} ${inter.variable} ${noto.variable} antialiased`}
       >
+        <Navbar />
         {children}
         <Analytics />
       </body>

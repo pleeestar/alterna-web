@@ -27,7 +27,7 @@ const navItems: NavItem[] = [
   { label: "秋", href: "/autumn", en: false, md: false },
   { label: "冬", href: "/winter", en: false, md: false },
   { label: "Noise AI", href: "/noiseai", en: true, md: true },
-  { label: "過去の活動", href: "/gallary", en: false, md: true },
+  { label: "過去の活動", href: "/gallery", en: false, md: true },
   { label: "バナー同盟", href: "/banner", en: false, md: true },
   { label: "参加する", href: "https://discord.gg/NbNqpDWERX", en: false, md: true },
 ]

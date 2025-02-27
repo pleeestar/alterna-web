@@ -18,10 +18,10 @@ const links: Links = {
     { href: "/autumn", label: "秋" },
     { href: "/winter", label: "冬" },
     { href: "/noiseai", label: "Noise AI" },
-    { href: "/event", label: "祭り" },
+    //{ href: "/event", label: "祭り" },
     { href: "/gallery", label: "過去の活動" },
     { href: "/banner", label: "バナー同盟" },
-    { href: "/diary", label: "日記(乙女の日記は見ちゃダメ)" },
+    //{ href: "/diary", label: "日記(乙女の日記は見ちゃダメ)" },
   ],
   Social: [
     { href: "/", label: "Youtube" },
@@ -59,21 +59,28 @@ const LinkSection: React.FC<LinkSectionProps> = ({ title, items }) => (
 
 export default function Footer() {
   return (
-    <footer className="relative w-full px-6 max-w-2xl md:max-w-3xl lg:max-w-4xl xl:max-w-5xl mx-auto grid md:grid-cols-3 md:grid-rows-5 pb-20 pt-9">
-      <div className="pt-4 md:pt-0 md:col-start-1 md:col-end-2 md:row-start-1 md:row-end-6">
-        <Image
-          src="/footer-logo.svg"
-          height={100}
-          width={200}
-          alt="オルタナ/Alterna.Inc"
-        />
-      </div>
-
-      {Object.entries(links).map(([section, items], index) => (
-        <div key={section} className={`pt-4 md:pt-0 md:col-start-${index + 2} md:col-end-${index + 3} md:row-start-1 md:row-end-6`}>
-          <LinkSection title={section} items={items} />
+    <div className="max-w-2xl md:max-w-3xl lg:max-w-4xl xl:max-w-5xl mx-auto">
+      <footer className="relative w-full px-6 grid md:grid-cols-3 md:grid-rows-5 pb-20 pt-9">
+        <div className="pt-4 md:pt-0 md:col-start-1 md:col-end-2 md:row-start-1 md:row-end-6">
+          <Image
+            src="/footer-logo.svg"
+            height={200}
+            width={200}
+            alt="オルタナ/Alterna.Inc"
+          />
         </div>
-      ))}
-    </footer>
+
+        {Object.entries(links).map(([section, items], index) => (
+          <div key={section} className={`pt-4 md:pt-0 md:col-start-${index + 2} md:col-end-${index + 3} md:row-start-1 md:row-end-6`}>
+            <LinkSection title={section} items={items} />
+          </div>
+        ))}
+      </footer>
+      <div>
+        <p className="opacity-50">
+          11 years have already passed and here we are, trying to escape to the times when we had no idea what the world was about, when we just spent ours days being happily ignorants. I don't wish to go back but being a better person hoping that humanity acts the same way. - 平成37年2月27日丘people
+        </p>
+      </div>
+    </div>
   )
 }
