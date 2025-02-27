@@ -34,7 +34,7 @@ const links: Links = {
   制作: [
     { href: "#", label: "web技術: pleeestar" },
     { href: "#", label: "企画: pleeestar" },
-    { href: "#", label: "ディスコ運営: nono3436" },
+    { href: "#", label: "ディスコ運営: pleeestar" },
     { href: "#", label: "音響: same pman" },
   ],
 }
