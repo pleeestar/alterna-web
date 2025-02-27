@@ -78,7 +78,7 @@ export default function Footer() {
       </footer>
       <div>
         <p className="opacity-50">
-          11 years have already passed and here we are, trying to escape to the times when we had no idea what the world was about, when we just spent ours days being happily ignorants. I don't wish to go back but being a better person hoping that humanity acts the same way. - 平成37年2月27日丘people
+          11 years have already passed and here we are, trying to escape to the times when we had no idea what the world was about, when we just spent ours days being happily ignorants. I don&apos;t wish to go back but being a better person hoping that humanity acts the same way. - 平成37年2月27日丘people
         </p>
       </div>
     </div>

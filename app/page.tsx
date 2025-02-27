@@ -6,8 +6,6 @@ import Footer from "../components/layout/Footer"
 import Banner from "../components/layout/Banner"
 import NoiseAI from "../components/layout/NoiseAI"
 
-
-//vercelエラー解消のためにとりあえずコミットしたいからゴミみたいなコメントするね★
 export default function Home() {
   return (
     <>
