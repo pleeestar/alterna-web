@@ -32,14 +32,14 @@ export default function Hero() {
               src="/logo.svg"
               height={700}
               width={700}
-              alt="アトラス/Alterna.Inc"
+              alt="キノコタケノコ第一試験ノイズ研究所"
               className="hidden md:block"
             />
             <Image
               src="/logo-sm.svg"
               height={500}
               width={500}
-              alt="アトラス/Alterna.Inc"
+              alt="キノコタケノコ第一試験ノイズ研究所"
               className="block md:hidden px-7 mb-8 md:mb-0"
             />
           </div>
