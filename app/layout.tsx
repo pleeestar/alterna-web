@@ -5,6 +5,8 @@ import Navbar from "../components/layout/Navbar"
 
 import "./globals.css"
 
+//
+
 const code = Source_Code_Pro({
   variable: "--font-source-code-pro",
   subsets: ["latin"],
