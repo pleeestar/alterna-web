@@ -1,12 +1,5 @@
 {
   "rewrites": [
     { "source": "/(.*)", "destination": "/404" }
-  ],
-  "publicFiles": [
-    "public/**/*.png",
-    "public/**/*.svg",
-    "public/**/*.jpg",
-    "public/**/*.jpeg",
-    "public/**/*.m4a"
   ]
 }
