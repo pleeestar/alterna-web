@@ -76,7 +76,7 @@ type BannerProps = {
 
 export default function Banner({ page }: BannerProps) {
   return (
-    <article className="max-w-2xl md:max-w-3xl lg:max-w-4xl xl:max-w-5xl mx-auto relative w-full px-3 md:px-6 pt-12 lg:py-20">
+    <article className="max-w-2xl md:max-w-3xl lg:max-w-4xl xl:max-w-5xl mx-auto relative w-full px-6 md:px-6 pt-12 lg:py-20">
       <div className="prose-sm md:prose-md lg:prose-lg">
         <h1 className={maruFont.className}>バナー同盟</h1>
         <div className="flex flex-col gap-y-4">
@@ -86,7 +86,7 @@ export default function Banner({ page }: BannerProps) {
               <h2 className={`${maruFont.className} mt-0`}>同盟の参加方法</h2>
               <p className="text-xs lg:text-sm my-2">
                 自分のオリジナルバナーをDiscordの専用チャンネルにうpするとバナー同盟に掲載されます。
-                ツイッターのヘッダー画像として「本サイトのバナー」と自分のオリジナルバナーを使って参加しよう！
+                同盟の証に<Link href="/圏外.png" className="text-blue-400 underline">圏外.png</Link>を自分のバナーにはめ込んでください。(ダウンロードできないときは右クリックからダウンロード)
               </p>
               <h3 className="my-2">
                 Example: <span className="text-xs lg:text-sm opacity-55">(画像は1500x500でアップロード)</span>
@@ -103,8 +103,8 @@ export default function Banner({ page }: BannerProps) {
 
           {/* 固定のバナー */}
           <p className="text-xs lg:text-sm my-2">
-            キノコタケノコ.comはリンクフリーです。
-            ホームページ(https://www.キノコタケノコ.com)へのバナーは下のをお使いください
+            圏外.comはリンクフリーです。
+            ホームページ(https://www.圏外.com)へのバナーは下のをお使いください
             m(_ _)m
           </p>
           <Image

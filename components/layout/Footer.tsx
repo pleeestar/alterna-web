@@ -12,7 +12,7 @@ type Links = {
 
 const links: Links = {
   Home: [
-    { href: "/", label: "第一試験ノイズ研究所" },
+    { href: "/", label: "圏外" },
     { href: "/spring", label: "春" },
     { href: "/summer", label: "夏" },
     { href: "/autumn", label: "秋" },
@@ -30,13 +30,7 @@ const links: Links = {
     { href: "/", label: "Bluesky" },
     { href: "https://github.com/pleeestar/alterna-web", label: "Github" },
     { href: "mailto:pleeestar@aol.com", label: "mail: pleeestar@aol.com" },
-  ],
-  制作: [
-    { href: "#", label: "web技術: pleeestar" },
-    { href: "#", label: "企画: pleeestar" },
-    { href: "#", label: "ディスコ運営: pleeestar" },
-    { href: "#", label: "音響: same pman" },
-  ],
+  ]
 }
 
 type LinkSectionProps = {
@@ -64,8 +58,8 @@ export default function Footer() {
         <div className="pt-4 md:pt-0 md:col-start-1 md:col-end-2 md:row-start-1 md:row-end-6">
           <Image
             src="/footer-logo.svg"
-            height={200}
-            width={200}
+            height={275}
+            width={275}
             alt="オルタナ/Alterna.Inc"
           />
         </div>
@@ -77,7 +71,7 @@ export default function Footer() {
         ))}
       </footer>
       <div>
-        <p className="opacity-50">
+        <p className="opacity-50 m-5">
           11 years have already passed and here we are, trying to escape to the times when we had no idea what the world was about, when we just spent ours days being happily ignorants. I don&apos;t wish to go back but being a better person hoping that humanity acts the same way. - 平成37年2月27日丘people
         </p>
       </div>

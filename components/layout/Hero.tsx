@@ -30,16 +30,16 @@ export default function Hero() {
           <div className="place-content-center p-8 lg:col-start-1 lg:col-end-6 lg:row-start-3 lg:row-end-5 lg:grid z-10">
             <Image
               src="/logo.svg"
-              height={700}
-              width={700}
-              alt="キノコタケノコ第一試験ノイズ研究所"
+              height={500}
+              width={500}
+              alt="圏外"
               className="hidden md:block"
             />
             <Image
               src="/logo-sm.svg"
-              height={500}
-              width={500}
-              alt="キノコタケノコ第一試験ノイズ研究所"
+              height={470}
+              width={470}
+              alt="圏外"
               className="block md:hidden px-7 mb-8 md:mb-0"
             />
           </div>

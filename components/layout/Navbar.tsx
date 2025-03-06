@@ -70,7 +70,7 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0">
             <Link href="/">
-              <Image src="/title-logo.svg" width={200} height={25} objectFit="contain" alt="アトラス" />
+              <Image src="/title-logo.svg" width={60} height={25} objectFit="contain" alt="圏外" />
             </Link>
           </div>
 
