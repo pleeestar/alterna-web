@@ -45,7 +45,7 @@ export default function Hero() {
           </div>
           <div className="grid place-content-center place-item-center p-4 gap-4 lg:col-start-2 lg:col-end-5 lg:row-start-5 lg:row-end-6 lg:grid lg:p-4 lg:gap-4 z-20">
             <div className="flex gap-4">
-              <Link href="/404"><Button variant="primary">Get Started</Button></Link>
+              <Link href="/notfound-404"><Button variant="primary">Get Started</Button></Link>
               <Link href="https://discord.com/invite/NbNqpDWERX"><Button variant="secondary">Discordに参加</Button></Link>
             </div>
             <p className="text-center opacity-50 text-sm md:text-base">@_@ Alterna.Inc System9@友達Protocol</p>

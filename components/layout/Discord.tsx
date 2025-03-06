@@ -39,7 +39,7 @@ export default function Discord() {
             <div className="grid grid-cols-2 grid-rows-5 w-full h-full place-items-center relative">
               <div className="col-start-1 col-end-3 row-start-4 row-end-5 w-[90vw] grid place-content-center place-items-center">
                 <div className="hidden lg:flex lg:gap-4 z-10">
-                  <Link href="/404"><Button variant="primary">Get Started</Button></Link>
+                  <Link href="/notfound-404"><Button variant="primary">Get Started</Button></Link>
                   <Link href="https://discord.com/invite/NbNqpDWERX"><Button variant="secondary">Discordに参加</Button></Link>
                 </div>
 
