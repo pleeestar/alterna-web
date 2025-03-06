@@ -103,8 +103,8 @@ export default function Banner({ page }: BannerProps) {
 
           {/* 固定のバナー */}
           <p className="text-xs lg:text-sm my-2">
-            圏外.comはリンクフリーです。
-            ホームページ(https://www.圏外.com)へのバナーは下のをお使いください
+            圏外.clubはリンクフリーです。
+            ホームページ(https://www.圏外.club)へのバナーは下のをお使いください
             m(_ _)m
           </p>
           <Image
