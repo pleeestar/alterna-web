@@ -43,7 +43,7 @@ export default function Hero() {
               className="block md:hidden px-7 mb-4 md:mb-0"
             />
           </div>
-          <div className="grid place-content-center place-item-center px-4 gap-4 lg:col-start-2 lg:col-end-5 lg:row-start-5 lg:row-end-6 lg:grid lg:p-4 lg:gap-4 z-20">
+          <div className="grid place-content-center place-item-center mt-4 px-4 gap-4 lg:col-start-2 lg:col-end-5 lg:row-start-5 lg:row-end-6 lg:grid lg:p-4 lg:gap-4 z-20">
             <div className="flex gap-4">
               <Link href="/notfound-404"><Button variant="primary">Get Started</Button></Link>
               <Link href="https://discord.com/invite/NbNqpDWERX"><Button variant="secondary">Discordに参加</Button></Link>
