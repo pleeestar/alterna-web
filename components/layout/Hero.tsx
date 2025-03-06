@@ -27,7 +27,7 @@ export default function Hero() {
           </div>
 
           {/* ロゴ */}
-          <div className="place-content-center p-8 lg:col-start-1 lg:col-end-6 lg:row-start-3 lg:row-end-5 lg:grid z-10">
+          <div className="place-content-center pt-16 px-8 lg:col-start-1 lg:col-end-6 lg:row-start-3 lg:row-end-5 lg:grid z-10">
             <Image
               src="/logo.svg"
               height={500}
@@ -40,10 +40,10 @@ export default function Hero() {
               height={470}
               width={470}
               alt="圏外"
-              className="block md:hidden px-7 mb-8 md:mb-0"
+              className="block md:hidden px-7 mb-4 md:mb-0"
             />
           </div>
-          <div className="grid place-content-center place-item-center p-4 gap-4 lg:col-start-2 lg:col-end-5 lg:row-start-5 lg:row-end-6 lg:grid lg:p-4 lg:gap-4 z-20">
+          <div className="grid place-content-center place-item-center px-4 gap-4 lg:col-start-2 lg:col-end-5 lg:row-start-5 lg:row-end-6 lg:grid lg:p-4 lg:gap-4 z-20">
             <div className="flex gap-4">
               <Link href="/notfound-404"><Button variant="primary">Get Started</Button></Link>
               <Link href="https://discord.com/invite/NbNqpDWERX"><Button variant="secondary">Discordに参加</Button></Link>
